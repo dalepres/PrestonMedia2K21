@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9DBAFECD-27D1-4AE4-816C-12542D94807D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ID3AlbumArtFixer2K21</RootNamespace>
+    <AssemblyName>ID3AlbumArtFixer2K21</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ID3AlbumArtFixer.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>PrestonID3.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Wizard.Controls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Wizard.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Wizard.UI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Wizard.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox1.Designer.cs" />
+    <Compile Include="AlbumArtFixer.cs" />
+    <Compile Include="AlbumArtFixerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlbumArtFixerForm.Designer.cs" />
+    <Compile Include="AlbumArtFixerJob.cs" />
+    <Compile Include="EmbedPictureJob.cs" />
+    <Compile Include="ExtractEmbeddedArt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtractEmbeddedArt.Designer.cs" />
+    <Compile Include="PrestonMediaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserAccounts.cs" />
+    <Compile Include="WIzard\AlbumArtOptionsPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WIzard\AlbumArtWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WIzard\ConfirmationPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WIzard\EmbedAlbumArtPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WIzard\IAlbumArtFixerJob.cs" />
+    <Compile Include="WIzard\IAlbumArtFixerSettings.cs" />
+    <Compile Include="WIzard\ResultsPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WIzard\SecurityPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WIzard\SourcePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WIzard\WelcomePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="WIzard\AlbumArtOptionsPage.resx">
+      <DependentUpon>AlbumArtOptionsPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WIzard\SourcePage.resx">
+      <DependentUpon>SourcePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonControls\CommonControls.csproj">
+      <Project>{a95ebce7-458b-4cdf-a703-333006c40c24}</Project>
+      <Name>CommonControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ID3Lib\ID3Lib.csproj">
+      <Project>{3645f83a-1f3b-49d1-ba8a-42d55afa96ec}</Project>
+      <Name>ID3Lib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PrestonID3.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

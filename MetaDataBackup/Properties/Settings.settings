@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Preston.Media.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="LibrarySourcePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Browse for folder to backup or restore.</Value>
+    </Setting>
+    <Setting Name="BackupFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Browse for metadata backup file location.</Value>
+    </Setting>
+    <Setting Name="IncludeSubfolders" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="LastAttributeList" Type="Preston.Media.MediaAttributeCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

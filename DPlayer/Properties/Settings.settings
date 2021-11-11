@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DPlayer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SnoozeTime" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">15</Value>
+    </Setting>
+    <Setting Name="AlbumArtForeColor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ButtonFace</Value>
+    </Setting>
+    <Setting Name="AlarmTime" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">12/11/2006 14:30:00</Value>
+    </Setting>
+    <Setting Name="AlarmTrack" Type="System.String" Scope="User">
+      <Value Profile="(Default)">E:\My Music\The Beatles\Sgt. Pepper's Lonely Hearts Club Band\11 Good Morning Good Morning.mp3</Value>
+    </Setting>
+    <Setting Name="AlarmVolumeStepUp" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="SlideShowPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">G:\DebbiePics</Value>
+    </Setting>
+    <Setting Name="SlideShowIntervalSeconds" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

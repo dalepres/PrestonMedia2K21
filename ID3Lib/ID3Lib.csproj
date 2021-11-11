@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3645F83A-1F3B-49D1-BA8A-42D55AFA96EC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ID3Lib2K21</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>ID3Lib</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="APICFrame.cs" />
+    <Compile Include="COMFrame.cs" />
+    <Compile Include="COMMFrame.cs" />
+    <Compile Include="DeletePictures.cs" />
+    <Compile Include="EncodingTypes.cs" />
+    <Compile Include="Frame.cs" />
+    <Compile Include="ID3GenreItem.cs" />
+    <Compile Include="ID3Genres.cs" />
+    <Compile Include="ID3PictureType.cs" />
+    <Compile Include="ID3PictureTypes.cs" />
+    <Compile Include="ID3Tag.cs" />
+    <Compile Include="ID3V22FramesCollection.cs" />
+    <Compile Include="ID3V2FramesCollection.cs" />
+    <Compile Include="ImageEmbeddedEventArgs.cs" />
+    <Compile Include="ImageEmbeddedEventHandler.cs" />
+    <Compile Include="ImageFrame.cs" />
+    <Compile Include="ImageLoadedEventArgs.cs" />
+    <Compile Include="ImageLoadedEventHandler.cs" />
+    <Compile Include="Mp3File.cs" />
+    <Compile Include="PICFrame.cs" />
+    <Compile Include="Resources.cs" />
+    <Compile Include="TagBackedUpEventArgs.cs" />
+    <Compile Include="TALBTextFrame.cs" />
+    <Compile Include="TALTextFrame.cs" />
+    <Compile Include="TCONTextFrame.cs" />
+    <Compile Include="TCOTextFrame.cs" />
+    <Compile Include="TIT2TextFrame.cs" />
+    <Compile Include="TP1TextFrame.cs" />
+    <Compile Include="TP2TextFrame.cs" />
+    <Compile Include="TPATextFrame.cs" />
+    <Compile Include="TPE1TextFrame.cs" />
+    <Compile Include="TPE2TextFrame.cs" />
+    <Compile Include="TPOSTextFrame.cs" />
+    <Compile Include="TrackInfo.cs" />
+    <Compile Include="TrackTagBackedUpEventHandler.cs" />
+    <Compile Include="TRCKTextFrame.cs" />
+    <Compile Include="TRKTextFrame.cs" />
+    <Compile Include="TT2TextFrame.cs" />
+    <Compile Include="TYERTextFrame.cs" />
+    <Compile Include="TYETextFrame.cs" />
+    <Compile Include="UnknownV22Frame.cs" />
+    <Compile Include="UnknownV2Frame.cs" />
+    <Compile Include="Utilities.cs" />
+    <Compile Include="V1ByteFrame.cs" />
+    <Compile Include="V1Frame.cs" />
+    <Compile Include="V1Tag.cs" />
+    <Compile Include="V1TextFrame.cs" />
+    <Compile Include="V22Frame.cs" />
+    <Compile Include="V22FrameFactory.cs" />
+    <Compile Include="V22Tag.cs" />
+    <Compile Include="V22TextFrame.cs" />
+    <Compile Include="V23Tag.cs" />
+    <Compile Include="V2Frame.cs" />
+    <Compile Include="V2FrameFactory.cs" />
+    <Compile Include="V2Tag.cs" />
+    <Compile Include="V2TextFrame.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
