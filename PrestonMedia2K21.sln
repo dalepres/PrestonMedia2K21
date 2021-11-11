@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DPlayer", "DPlayer\DPlayer.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaDataBackup", "MetaDataBackup\MetaDataBackup.csproj", "{5CD323B2-544D-468E-8CFF-FB06261345DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ID3RawTagViewer", "ID3RawTagViewer\RawV2TagEditor\ID3RawTagViewer.csproj", "{52624B56-2F70-4953-8444-500D3E324879}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5CD323B2-544D-468E-8CFF-FB06261345DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CD323B2-544D-468E-8CFF-FB06261345DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CD323B2-544D-468E-8CFF-FB06261345DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52624B56-2F70-4953-8444-500D3E324879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52624B56-2F70-4953-8444-500D3E324879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52624B56-2F70-4953-8444-500D3E324879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52624B56-2F70-4953-8444-500D3E324879}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FrameDescAENC" xml:space="preserve">
+    <value>Audio encryption</value>
+  </data>
+  <data name="FrameDescAPIC" xml:space="preserve">
+    <value>Attached picture</value>
+  </data>
+  <data name="FrameDescBUF" xml:space="preserve">
+    <value>Recommended buffer size</value>
+  </data>
+  <data name="FrameDescCNT" xml:space="preserve">
+    <value>Play counter</value>
+  </data>
+  <data name="FrameDescCOM" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="FrameDescCOMM" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="FrameDescCOMR" xml:space="preserve">
+    <value>Commercial frame</value>
+  </data>
+  <data name="FrameDescCRA" xml:space="preserve">
+    <value>Audio encryption</value>
+  </data>
+  <data name="FrameDescCRM" xml:space="preserve">
+    <value>Encrypted meta frame</value>
+  </data>
+  <data name="FrameDescENCR" xml:space="preserve">
+    <value>Encryption method registration</value>
+  </data>
+  <data name="FrameDescEQU" xml:space="preserve">
+    <value>Equalization</value>
+  </data>
+  <data name="FrameDescEQUA" xml:space="preserve">
+    <value>Equalization</value>
+  </data>
+  <data name="FrameDescETC" xml:space="preserve">
+    <value>Event timing codes</value>
+  </data>
+  <data name="FrameDescETCO" xml:space="preserve">
+    <value>Event timing codes</value>
+  </data>
+  <data name="FrameDescGEO" xml:space="preserve">
+    <value>General encapsulated object</value>
+  </data>
+  <data name="FrameDescGEOB" xml:space="preserve">
+    <value>General encapsulated object</value>
+  </data>
+  <data name="FrameDescGRID" xml:space="preserve">
+    <value>Group identification registration</value>
+  </data>
+  <data name="FrameDescIPL" xml:space="preserve">
+    <value>Involved people list</value>
+  </data>
+  <data name="FrameDescIPLS" xml:space="preserve">
+    <value>Involved people list</value>
+  </data>
+  <data name="FrameDescLINK" xml:space="preserve">
+    <value>Linked information</value>
+  </data>
+  <data name="FrameDescLNK" xml:space="preserve">
+    <value>Linked information</value>
+  </data>
+  <data name="FrameDescMCDI" xml:space="preserve">
+    <value>Music CD identifier</value>
+  </data>
+  <data name="FrameDescMCI" xml:space="preserve">
+    <value>Music CD Identifier</value>
+  </data>
+  <data name="FrameDescMLL" xml:space="preserve">
+    <value>MPEG location lookup table</value>
+  </data>
+  <data name="FrameDescMLLT" xml:space="preserve">
+    <value>MPEG location lookup table</value>
+  </data>
+  <data name="FrameDescOWNE" xml:space="preserve">
+    <value>Ownership frame</value>
+  </data>
+  <data name="FrameDescPCNT" xml:space="preserve">
+    <value>Play counter</value>
+  </data>
+  <data name="FrameDescPIC" xml:space="preserve">
+    <value>Attached picture</value>
+  </data>
+  <data name="FrameDescPOP" xml:space="preserve">
+    <value>Popularimeter</value>
+  </data>
+  <data name="FrameDescPOPM" xml:space="preserve">
+    <value>Popularimeter</value>
+  </data>
+  <data name="FrameDescPOSS" xml:space="preserve">
+    <value>Position synchronisation frame</value>
+  </data>
+  <data name="FrameDescPRIV" xml:space="preserve">
+    <value>Private frame</value>
+  </data>
+  <data name="FrameDescRBUF" xml:space="preserve">
+    <value>Recommended buffer size</value>
+  </data>
+  <data name="FrameDescREV" xml:space="preserve">
+    <value>Reverb</value>
+  </data>
+  <data name="FrameDescRVA" xml:space="preserve">
+    <value>Relative volume adjustment</value>
+  </data>
+  <data name="FrameDescRVAD" xml:space="preserve">
+    <value>Relative volume adjustment</value>
+  </data>
+  <data name="FrameDescRVRB" xml:space="preserve">
+    <value>Reverb</value>
+  </data>
+  <data name="FrameDescSLT" xml:space="preserve">
+    <value>Synchronized lyric/text</value>
+  </data>
+  <data name="FrameDescSTC" xml:space="preserve">
+    <value>Synced tempo codes</value>
+  </data>
+  <data name="FrameDescSYLT" xml:space="preserve">
+    <value>Synchronized lyric/text</value>
+  </data>
+  <data name="FrameDescSYTC" xml:space="preserve">
+    <value>Synchronized tempo codes</value>
+  </data>
+  <data name="FrameDescTAL" xml:space="preserve">
+    <value>Album/Movie/Show title</value>
+  </data>
+  <data name="FrameDescTALB" xml:space="preserve">
+    <value>Album/Movie/Show title</value>
+  </data>
+  <data name="FrameDescTBP" xml:space="preserve">
+    <value>BPM (Beats Per Minute)</value>
+  </data>
+  <data name="FrameDescTBPM" xml:space="preserve">
+    <value>BPM (beats per minute)</value>
+  </data>
+  <data name="FrameDescTCM" xml:space="preserve">
+    <value>Composer</value>
+  </data>
+  <data name="FrameDescTCO" xml:space="preserve">
+    <value>Content type</value>
+  </data>
+  <data name="FrameDescTCOM" xml:space="preserve">
+    <value>Composer</value>
+  </data>
+  <data name="FrameDescTCON" xml:space="preserve">
+    <value>Content type</value>
+  </data>
+  <data name="FrameDescTCOP" xml:space="preserve">
+    <value>Copyright message</value>
+  </data>
+  <data name="FrameDescTCR" xml:space="preserve">
+    <value>Copyright message</value>
+  </data>
+  <data name="FrameDescTDA" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="FrameDescTDAT" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="FrameDescTDLY" xml:space="preserve">
+    <value>Playlist delay</value>
+  </data>
+  <data name="FrameDescTDY" xml:space="preserve">
+    <value>Playlist delay</value>
+  </data>
+  <data name="FrameDescTEN" xml:space="preserve">
+    <value>Encoded by</value>
+  </data>
+  <data name="FrameDescTENC" xml:space="preserve">
+    <value>Encoded by</value>
+  </data>
+  <data name="FrameDescTEXT" xml:space="preserve">
+    <value>Lyricist/Text writer</value>
+  </data>
+  <data name="FrameDescTFLT" xml:space="preserve">
+    <value>File type</value>
+  </data>
+  <data name="FrameDescTFT" xml:space="preserve">
+    <value>File type</value>
+  </data>
+  <data name="FrameDescTIM" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="FrameDescTIME" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="FrameDescTIT1" xml:space="preserve">
+    <value>Content group description</value>
+  </data>
+  <data name="FrameDescTIT2" xml:space="preserve">
+    <value>Title/songname/content description</value>
+  </data>
+  <data name="FrameDescTIT3" xml:space="preserve">
+    <value>Subtitle/Description refinement</value>
+  </data>
+  <data name="FrameDescTKE" xml:space="preserve">
+    <value>Initial key</value>
+  </data>
+  <data name="FrameDescTKEY" xml:space="preserve">
+    <value>Initial key</value>
+  </data>
+  <data name="FrameDescTLA" xml:space="preserve">
+    <value>Language(s)</value>
+  </data>
+  <data name="FrameDescTLAN" xml:space="preserve">
+    <value>Language(s)</value>
+  </data>
+  <data name="FrameDescTLE" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="FrameDescTLEN" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="FrameDescTMED" xml:space="preserve">
+    <value>Media type</value>
+  </data>
+  <data name="FrameDescTMT" xml:space="preserve">
+    <value>Media type</value>
+  </data>
+  <data name="FrameDescTOA" xml:space="preserve">
+    <value>Original artist(s)/performer(s)</value>
+  </data>
+  <data name="FrameDescTOAL" xml:space="preserve">
+    <value>Original album/movie/show title</value>
+  </data>
+  <data name="FrameDescTOF" xml:space="preserve">
+    <value>Original filename</value>
+  </data>
+  <data name="FrameDescTOFN" xml:space="preserve">
+    <value>Original filename</value>
+  </data>
+  <data name="FrameDescTOL" xml:space="preserve">
+    <value>Original Lyricist(s)/text writer(s)</value>
+  </data>
+  <data name="FrameDescTOLY" xml:space="preserve">
+    <value>Original lyricist(s)/text writer(s)</value>
+  </data>
+  <data name="FrameDescTOPE" xml:space="preserve">
+    <value>Original artist(s)/performer(s)</value>
+  </data>
+  <data name="FrameDescTOR" xml:space="preserve">
+    <value>Original release year</value>
+  </data>
+  <data name="FrameDescTORY" xml:space="preserve">
+    <value>Original release year</value>
+  </data>
+  <data name="FrameDescTOT" xml:space="preserve">
+    <value>Original album/Movie/Show title</value>
+  </data>
+  <data name="FrameDescTOWN" xml:space="preserve">
+    <value>File owner/licensee</value>
+  </data>
+  <data name="FrameDescTP1" xml:space="preserve">
+    <value>Lead artist(s)/Lead performer(s)/Soloist(s)/Performing group</value>
+  </data>
+  <data name="FrameDescTP2" xml:space="preserve">
+    <value>Band/Orchestra/Accompaniment</value>
+  </data>
+  <data name="FrameDescTP3" xml:space="preserve">
+    <value>Conductor/Performer refinement</value>
+  </data>
+  <data name="FrameDescTP4" xml:space="preserve">
+    <value>Interpreted, remixed, or otherwise modified by</value>
+  </data>
+  <data name="FrameDescTPA" xml:space="preserve">
+    <value>Part of a set</value>
+  </data>
+  <data name="FrameDescTPB" xml:space="preserve">
+    <value>Publisher</value>
+  </data>
+  <data name="FrameDescTPE1" xml:space="preserve">
+    <value>Lead performer(s)/Soloist(s)</value>
+  </data>
+  <data name="FrameDescTPE2" xml:space="preserve">
+    <value>Band/orchestra/accompaniment</value>
+  </data>
+  <data name="FrameDescTPE3" xml:space="preserve">
+    <value>Conductor/performer refinement</value>
+  </data>
+  <data name="FrameDescTPE4" xml:space="preserve">
+    <value>Interpreted, remixed, or otherwise modified by</value>
+  </data>
+  <data name="FrameDescTPOS" xml:space="preserve">
+    <value>Part of a set</value>
+  </data>
+  <data name="FrameDescTPUB" xml:space="preserve">
+    <value>Publisher</value>
+  </data>
+  <data name="FrameDescTRC" xml:space="preserve">
+    <value>ISRC (International Standard Recording Code)</value>
+  </data>
+  <data name="FrameDescTRCK" xml:space="preserve">
+    <value>Track number/Position in set</value>
+  </data>
+  <data name="FrameDescTRD" xml:space="preserve">
+    <value>Recording dates</value>
+  </data>
+  <data name="FrameDescTRDA" xml:space="preserve">
+    <value>Recording dates</value>
+  </data>
+  <data name="FrameDescTRK" xml:space="preserve">
+    <value>Track number/Position in set</value>
+  </data>
+  <data name="FrameDescTRSN" xml:space="preserve">
+    <value>Internet radio station name</value>
+  </data>
+  <data name="FrameDescTRSO" xml:space="preserve">
+    <value>Internet radio station owner</value>
+  </data>
+  <data name="FrameDescTSI" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="FrameDescTSIZ" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="FrameDescTSRC" xml:space="preserve">
+    <value>ISRC (international standard recording code)</value>
+  </data>
+  <data name="FrameDescTSS" xml:space="preserve">
+    <value>Software/hardware and settings used for encoding</value>
+  </data>
+  <data name="FrameDescTSSE" xml:space="preserve">
+    <value>Software/Hardware and settings used for encoding</value>
+  </data>
+  <data name="FrameDescTT1" xml:space="preserve">
+    <value>Content group description</value>
+  </data>
+  <data name="FrameDescTT2" xml:space="preserve">
+    <value>Title/Songname/Content description</value>
+  </data>
+  <data name="FrameDescTT3" xml:space="preserve">
+    <value>Subtitle/Description refinement</value>
+  </data>
+  <data name="FrameDescTXT" xml:space="preserve">
+    <value>Lyricist/text writer</value>
+  </data>
+  <data name="FrameDescTXX" xml:space="preserve">
+    <value>User defined text information frame</value>
+  </data>
+  <data name="FrameDescTXXX" xml:space="preserve">
+    <value>User defined text information frame</value>
+  </data>
+  <data name="FrameDescTYE" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="FrameDescTYER" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="FrameDescUFI" xml:space="preserve">
+    <value>Unique file identifier</value>
+  </data>
+  <data name="FrameDescUFID" xml:space="preserve">
+    <value>Unique file identifier</value>
+  </data>
+  <data name="FrameDescULT" xml:space="preserve">
+    <value>Unsychronized lyric/text transcription</value>
+  </data>
+  <data name="FrameDescUSER" xml:space="preserve">
+    <value>Terms of use</value>
+  </data>
+  <data name="FrameDescUSLT" xml:space="preserve">
+    <value>Unsychronized lyric/text transcription</value>
+  </data>
+  <data name="FrameDescWAF" xml:space="preserve">
+    <value>Official audio file webpage</value>
+  </data>
+  <data name="FrameDescWAR" xml:space="preserve">
+    <value>Official artist/performer webpage</value>
+  </data>
+  <data name="FrameDescWAS" xml:space="preserve">
+    <value>Official audio source webpage</value>
+  </data>
+  <data name="FrameDescWCM" xml:space="preserve">
+    <value>Commercial information</value>
+  </data>
+  <data name="FrameDescWCOM" xml:space="preserve">
+    <value>Commercial information</value>
+  </data>
+  <data name="FrameDescWCOP" xml:space="preserve">
+    <value>Copyright/Legal information</value>
+  </data>
+  <data name="FrameDescWCP" xml:space="preserve">
+    <value>Copyright/Legal information</value>
+  </data>
+  <data name="FrameDescWOAF" xml:space="preserve">
+    <value>Official audio file webpage</value>
+  </data>
+  <data name="FrameDescWOAR" xml:space="preserve">
+    <value>Official artist/performer webpage</value>
+  </data>
+  <data name="FrameDescWOAS" xml:space="preserve">
+    <value>Official audio source webpage</value>
+  </data>
+  <data name="FrameDescWORS" xml:space="preserve">
+    <value>Official internet radio station homepage</value>
+  </data>
+  <data name="FrameDescWPAY" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="FrameDescWPB" xml:space="preserve">
+    <value>Publishers official webpage</value>
+  </data>
+  <data name="FrameDescWPUB" xml:space="preserve">
+    <value>Publishers official webpage</value>
+  </data>
+  <data name="FrameDescWXX" xml:space="preserve">
+    <value>User defined URL link frame</value>
+  </data>
+  <data name="FrameDescWXXX" xml:space="preserve">
+    <value>User defined URL link frame</value>
+  </data>
+</root>
