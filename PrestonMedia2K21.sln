@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaDataBackup", "MetaDataB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ID3RawTagViewer", "ID3RawTagViewer\RawV2TagEditor\ID3RawTagViewer.csproj", "{52624B56-2F70-4953-8444-500D3E324879}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mp3Manager", "MP3Manager\Mp3Manager.csproj", "{FB02E43C-1D1E-49EF-8667-2D65D2202D56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DPMediaPlayer", "MediaPlayer\DPMediaPlayer.csproj", "{ECD9DB3C-3A2B-4AAE-8682-9F9BF07D7554}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{52624B56-2F70-4953-8444-500D3E324879}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52624B56-2F70-4953-8444-500D3E324879}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52624B56-2F70-4953-8444-500D3E324879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB02E43C-1D1E-49EF-8667-2D65D2202D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB02E43C-1D1E-49EF-8667-2D65D2202D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB02E43C-1D1E-49EF-8667-2D65D2202D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB02E43C-1D1E-49EF-8667-2D65D2202D56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECD9DB3C-3A2B-4AAE-8682-9F9BF07D7554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD9DB3C-3A2B-4AAE-8682-9F9BF07D7554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD9DB3C-3A2B-4AAE-8682-9F9BF07D7554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD9DB3C-3A2B-4AAE-8682-9F9BF07D7554}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
